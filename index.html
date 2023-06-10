@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Ángelo Álvarez Jaramillo">
+        <meta name="description" content="Proyecto pagina web">
+        <meta name="keywords" content="HTML,CSS,BOOTSTRAP">
+        <meta name="viewport" content="width=device-width" initial-scale="1">
+    
+        <title>Proyecto codo a codo</title>
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <link rel="icon" type= "imagen/icon" href="Imagenes/codoacodo.png">
+    </head>
+    <boddy class="container-fluid">
+        <header>
+            <nav class="navegador">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="Imagenes/codoacodo.png" width="70">
+                        <p>Conf Bs As</p>
+                    </div>
+                    <div class="col-8">
+                        <ul>
+                            <li>
+                                <a  class="enlaces" href="#">La conferencia</a>
+                            </li>
+                            <li>
+                                <a class="enlaces" href="#">Los oradores</a>
+                            </li>
+                            <li>
+                                <a  class="enlaces" href="#">El lugar y la fecha</a>
+                            </li>
+                            <li>
+                                <a  class="enlaces" href="#">Conviertete en orador</a>
+                            </li>
+                            <li>
+                                <a  class="enlaces" href="Comprar-tickets.html" target="_blank">Comprar tickets</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>       
+        </header>
+        <main>
+            <div class="baner">
+                <!-- <img class="baner" src="Imagenes/ba1.jpg"> -->
+                            
+                <p class="texto-one">  <span class="texto-conf">Conf Bs As</span><br><br>                     
+                    Bs As llegar por primera vez a Argentina. Un evento para compartir con
+                    nuestra comunidad el conocimiento y experiencia de los expertos que
+                    estan creando el futuro del internet. ven a conocer a miembros del
+                    evento, a otros estudiantes de codo a codo y los oradores de primer
+                    nivel que tenemos para ti. Te esperamos!<br><br>
+                    <button id="btn1">Quiero ser orador</button><button id="btn2">Comprar tickets</button>
+                </p>                
+            </div>
+        </main>
+        <div class="titulo">
+            <h6>CONOCE A LOS</h6>
+            <h5> ORADORES</h5>
+        </div>
+        <section class="flex-container">
+                
+            <div class="tarjeta">                
+                <div class="contenido">
+                    <img class="img-gal2" src="Imagenes/steve.jpg" >
+                </div>
+                <button class="btn1">Javascript</button><button class="btn2">React</button>
+                <h5>Steve Jobs</h5>
+                <p>        
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lorem ut eros tincidunt pharetra. 
+                    Nunc vehicula, dui nec consectetur semper, nisi turpis pulvinar urna, eu scelerisque dolor felis nec turpis. 
+                    Phasellus molestie ipsum sit amet mattis sagittis.
+                </p>
+            </div>
+
+            <div class="tarjeta">
+                <div class="contenido">
+                    <img class="img-gal2" src="Imagenes/bill.jpg" >
+                </div>
+                <button class="btn1">Javascript</button><button class="btn2">React</button>
+                <h5>Bill Gates</h5>
+                <p>        
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lorem ut eros tincidunt pharetra. 
+                    Nunc vehicula, dui nec consectetur semper, nisi turpis pulvinar urna, eu scelerisque dolor felis nec turpis. 
+                    Phasellus molestie ipsum sit amet mattis sagittis.
+                </p>
+                
+            </div>
+            <div class="tarjeta">
+                <div class="contenido">
+                    <img class="img-gal2" src="Imagenes/ada.jpeg" >
+                </div>
+                <button class="btn3">Negocios</button><button class="btn4">Startups</button>
+                <h5>Ada Lovelace</h5>
+                <p>        
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lorem ut eros tincidunt pharetra. 
+                    Nunc vehicula, dui nec consectetur semper, nisi turpis pulvinar urna, eu scelerisque dolor felis nec turpis. 
+                    Phasellus molestie ipsum sit amet mattis sagittis.
+                </p>
+            </div>
+
+        </section>
+        <section class="flex-container1">
+            <div class="galeria2">
+                <img  class="img-gal" src="Imagenes/honolulu.jpg">
+            </div>
+            <div class="galeria2 fondo1">
+                <span>Bs As-Octubre</span><br><br>
+               <p class="texto2">
+                Buenos Aires es la provincia y locaidad mas grande del estado de Argentina, En los Estados Unidos. honolulu es
+                la mas sureña de entre las pricipales ciudades estadounidenses. Aunque el nombre de honolulu se refiere al área
+                urbana en la costa sureste de Oahu, la ciudad y el condado de honolulu han formado la ciudad
+                condado consolidada que cubre toda la ciudad (Aproximadamente 600km<sup>2</sup> de superficie).                
+               </p>
+               <button>Conocé mas</button>
+            </div>
+        </section>
+        <section>
+            <h6 class="titulo">CONVIÉRTETE EN UN</h6>
+                 <h5 class="titulo">ORADOR</h5>
+            <div class="seccion-frm">
+                
+                <form name="" id="" method="post" action="" class="frm">
+                    <p>Anotate como orador para dar una charla ignite. Cuentanos de que quieres hablar!</p>
+                    <input type="text" placeholder="Nombre" name="nombre" id="nombre" class="cuadro-texto">
+                    <input type="text" placeholder="Apellido"  name="apellido" id="apellido" class="cuadro-texto"><br>
+                    <textarea>Sobre que quieres hablar?</textarea>
+                    <p style="font-size: 12px;">Recuerda incluir un titulo para tu charla</p>
+                    <button type="submit" value="Enviar" class="btn-enviar">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="flex-container3">
+              <ul>
+                <li>
+                    <a href="" class="link"> Preguntas frecuentes</a>
+                </li>
+                <li>
+                    <a href="" class="link"> Contactenos</a>
+                </li>
+                <li>
+                    <a href="" class="link">Prensa</a>             
+                    
+                </li>
+                <li>
+                    <a href="" class="link">Conferencias</a>                        
+                    
+                </li>
+                <li>
+                    <a href="" class="link">Terminos y condiciones</a>    
+                    
+                </li>
+                <li>
+                    <a href="" class="link"> Privacidad</a>
+                </li>
+                <li>
+                    <a  href="" class="link">Estudiantes</a>             
+                    
+                </li>
+              </ul>
+            </div>
+        </footer>
+        <script type="text/Javascript" src="script/funcionalidad.js"></script>
+    </boddy>
+</html>
